@@ -5,3 +5,12 @@ Given a string made of digits [0-9], return a string where each digit is repeate
 */
 
 
+function explode(s) {
+    const numbers = [...s]
+    let str1 = ''
+    numbers.forEach(function(value) {
+      str1 += value.repeat(parseInt(value))})
+    return str1;
+}
+
+console.log(explode('000'));
