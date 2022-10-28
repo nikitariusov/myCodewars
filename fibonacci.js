@@ -8,4 +8,4 @@ function fibonacci(n){
     return arr[n-1]
 }
 
-loger(fibonacci(5))
+loger(fibonacci(50))
